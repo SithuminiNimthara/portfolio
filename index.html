@@ -38,6 +38,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Tailwind CDN for simple single-file deployment -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -495,7 +496,7 @@
                 >GitHub ↗</a
               >
               <a
-                href="https://linkedin.com/in/sithuminipalamure"
+                href="https://www.linkedin.com/in/sithumini-palamure/"
                 target="_blank"
                 class="btn-secondary"
                 >LinkedIn ↗</a
@@ -507,7 +508,7 @@
             >
               <div>
                 <p class="text-3xl font-black text-ink dark:text-white">
-                  5<span class="text-mint">+</span>
+                  7<span class="text-mint">+</span>
                 </p>
                 <p
                   class="mt-1 text-[0.65rem] font-extrabold uppercase tracking-[.15em] text-slate-400"
@@ -546,6 +547,7 @@
               <div class="card relative w-full max-w-sm p-6 text-center">
                 <img
                   src="assets/profile.png"
+                  loading="lazy"
                   alt="Sithumini Palamure"
                   class="mx-auto h-36 w-36 rounded-full object-cover ring-4 ring-mint/30"
                 />
@@ -692,14 +694,11 @@
 
           <div class="grid gap-8 lg:grid-cols-[.9fr_1.1fr]">
             <div class="reveal card p-6">
-              <!-- =========================================================
-                 ABOUT IMAGE PLACEHOLDER
-                 Add a professional photo, work setup photo, or coding image
-                 Example: <img src="assets/about-photo.jpg" class="h-full w-full rounded-2xl object-cover" alt="About Sithumini" />
-                 ========================================================= -->
-              <div class="image-placeholder h-full min-h-[320px]">
-                ADD ABOUT IMAGE<br />assets/about-photo.jpg
-              </div>
+              <img
+                src="assets/about-photo.png"
+                class="h-full w-full rounded-2xl object-cover"
+                alt="About Sithumini"
+              />
             </div>
 
             <div class="reveal card p-7 md:p-8">
@@ -1109,7 +1108,7 @@
                 <div class="mt-5 grid grid-cols-3 gap-2">
                   <!-- REPLACE VIDEO DEMO LINK -->
                   <a
-                    href="https://your-nurseryconnect-video-link.com"
+                    href="https://youtu.be/jrfwil9YWRE"
                     target="_blank"
                     class="rounded-xl bg-mint px-3 py-3 text-center text-xs font-black text-white"
                     >Video</a
@@ -1170,7 +1169,7 @@
                     href="https://youtu.be/WLQhonyWP2E"
                     target="_blank"
                     class="rounded-xl bg-mint px-3 py-3 text-center text-xs font-black text-white"
-                    >Live</a
+                    >Video</a
                   >
                   <a
                     href="https://github.com/SithuminiNimthara/food-ordering-system.git"
@@ -1240,7 +1239,15 @@
                 </div>
 
                 <!-- BUTTONS -->
-                <div class="mt-5 grid grid-cols-3 gap-2">
+                <div class="mt-5 grid grid-cols-2 gap-2">
+                  <!-- VIDEO -->
+                  <a
+                    href="https://youtu.be/IgqPAmsJIbE"
+                    target="_blank"
+                    class="rounded-xl bg-mint px-3 py-3 text-center text-xs font-black text-white"
+                  >
+                    Video
+                  </a>
                   <!-- GITHUB -->
                   <a
                     href="https://github.com/SithuminiNimthara/Event-Management-Application.git"
@@ -1248,15 +1255,6 @@
                     class="rounded-xl bg-slate-100 px-3 py-3 text-center text-xs font-black text-ink dark:bg-white/10 dark:text-white"
                   >
                     GitHub
-                  </a>
-
-                  <!-- VIDEO -->
-                  <a
-                    href="https://youtu.be/IgqPAmsJIbE"
-                    target="_blank"
-                    class="rounded-xl bg-slate-100 px-3 py-3 text-center text-xs font-black text-ink dark:bg-white/10 dark:text-white"
-                  >
-                    Video
                   </a>
                 </div>
               </div>
@@ -1322,7 +1320,7 @@
                     target="_blank"
                     class="rounded-xl bg-mint px-3 py-3 text-center text-xs font-black text-white"
                   >
-                    Live
+                    Video
                   </a>
 
                   <!-- GITHUB -->
@@ -1340,6 +1338,88 @@
                     class="rounded-xl bg-slate-100 px-3 py-3 text-center text-xs font-black text-ink dark:bg-white/10 dark:text-white"
                   >
                     Case
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal card p-5">
+              <!-- PROJECT IMAGE -->
+              <img
+                src="assets/projects/task-management-app.png"
+                alt="Dynamic Task Management App"
+                class="h-45 w-full rounded-2xl object-cover"
+              />
+
+              <div class="mt-5">
+                <!-- CATEGORY -->
+                <p
+                  class="text-xs font-black uppercase tracking-[.16em] text-mint"
+                >
+                  Android · Kotlin · Mobile Development
+                </p>
+
+                <!-- TITLE -->
+                <h3 class="mt-2 text-lg font-black text-ink dark:text-white">
+                  Dynamic Task Management App
+                </h3>
+
+                <!-- DESCRIPTION -->
+                <p
+                  class="mt-3 text-sm leading-7 text-[#4A6070] dark:text-slate-300"
+                >
+                  Developed a mobile task management application using Kotlin
+                  and Android Studio with local database integration, dynamic
+                  task handling, and responsive UI components.
+                </p>
+
+                <!-- FEATURES -->
+                <ul
+                  class="mt-4 space-y-2 text-sm text-[#4A6070] dark:text-slate-300"
+                >
+                  <li>
+                    • Implemented task creation, updating, and deletion
+                    workflows
+                  </li>
+                  <li>
+                    • Integrated SQLite database using Room persistence library
+                  </li>
+                  <li>
+                    • Built dynamic RecyclerView interfaces for flexible task
+                    display
+                  </li>
+                  <li>
+                    • Implemented DAO architecture for efficient CRUD operations
+                  </li>
+                </ul>
+
+                <!-- TECH STACK -->
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span class="skill-pill">Kotlin</span>
+                  <span class="skill-pill">Android Studio</span>
+                  <span class="skill-pill">SQLite</span>
+                  <span class="skill-pill">Room Database</span>
+                  <span class="skill-pill">RecyclerView</span>
+                </div>
+
+                <!-- BUTTONS -->
+                <div class="mt-5 grid grid-cols-2 gap-2">
+                  <!-- VIDEO -->
+                  <a
+                    href="https://youtu.be/IqZuUDySzjs"
+                    target="_blank"
+                    class="rounded-xl bg-mint px-3 py-3 text-center text-xs font-black text-white"
+                  >
+                    Demo Video
+                  </a>
+
+                  <!-- GITHUB -->
+                  <a
+                    href="https://github.com/SithuminiNimthara/NoteAppMad.git"
+                    target="_blank"
+                    class="rounded-xl bg-slate-100 px-3 py-3 text-center text-xs font-black text-ink dark:bg-white/10 dark:text-white"
+                  >
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -1403,8 +1483,6 @@
                 </div>
               </div>
             </article>
-
-            <!-- PROJECT 6 -->
           </div>
         </div>
       </section>
@@ -1570,19 +1648,11 @@
 
           <div class="grid gap-7 lg:grid-cols-[1fr_1.1fr] lg:items-center">
             <div class="reveal card p-5">
-              <!-- =========================================================
-                 RESEARCH IMAGE / VIDEO PLACEHOLDER
-                 Best options:
-                 1. AI shoreline prediction result image
-                 2. Research system architecture diagram
-                 3. Demo video thumbnail
-                 Replace with image:
-                 <img src="assets/research/shoreline-research-demo.png" class="h-full w-full rounded-2xl object-cover" alt="Research demo" />
-                 ========================================================= -->
-              <div class="image-placeholder min-h-[360px]">
-                ADD RESEARCH VISUAL<br />Prediction Result / Architecture / Demo
-                Thumbnail<br />assets/research/shoreline-research-demo.png
-              </div>
+              <img
+                src="assets/research/shoreline-research-demo.png"
+                class="h-full w-full rounded-2xl object-cover"
+                alt="Research demo"
+              />
             </div>
 
             <div class="reveal card p-7 md:p-8">
@@ -1638,17 +1708,10 @@
               <div class="mt-7 flex flex-wrap gap-3">
                 <!-- REPLACE PAPER/DOI LINK WHEN AVAILABLE -->
                 <a
-                  href="https://your-paper-or-doi-link.com"
-                  target="_blank"
-                  class="btn-primary"
-                  >Paper / DOI ↗</a
-                >
-                <!-- REPLACE DEMO VIDEO LINK -->
-                <a
                   href="https://canva.link/diijv57berd32is"
                   target="_blank"
-                  class="btn-secondary"
-                  >Presentation</a
+                  class="btn-primary"
+                  >presentation slides ↗</a
                 >
               </div>
             </div>
@@ -1762,7 +1825,7 @@
                   </p>
                 </a>
                 <a
-                  href="https://linkedin.com/in/sithuminipalamure"
+                  href="https://www.linkedin.com/in/sithumini-palamure/"
                   target="_blank"
                   class="rounded-2xl bg-slate-50 p-4 text-decoration-none transition hover:bg-mint/10 dark:bg-white/5"
                 >
@@ -1772,7 +1835,7 @@
                     LinkedIn
                   </p>
                   <p class="mt-1 font-black text-ink dark:text-white">
-                    linkedin.com/in/sithuminipalamure
+                    linkedin.com/in/sithumini-palamure
                   </p>
                 </a>
               </div>
@@ -1788,60 +1851,120 @@
                  ========================================================= -->
               <form
                 id="contact-form"
-                action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+                action="https://formspree.io/f/xjgzgdbp"
                 method="POST"
+                class="space-y-5"
               >
+                <!-- Hidden Subject -->
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Portfolio Contact Message"
+                />
+
+                <!-- Spam Protection -->
+                <input type="text" name="_gotcha" style="display: none" />
+
+                <!-- Name + Email -->
                 <div class="grid gap-5 md:grid-cols-2">
+                  <!-- Name -->
                   <div>
                     <label
                       class="mb-2 block text-xs font-black uppercase tracking-[.14em] text-slate-400"
-                      >Your Name</label
                     >
+                      Your Name
+                    </label>
+
                     <input
                       class="form-input"
                       type="text"
                       name="name"
                       required
-                      placeholder="Jane Recruiter"
+                      placeholder="John Doe"
                     />
                   </div>
+
+                  <!-- Email -->
                   <div>
                     <label
                       class="mb-2 block text-xs font-black uppercase tracking-[.14em] text-slate-400"
-                      >Email</label
                     >
+                      Email Address
+                    </label>
+
                     <input
                       class="form-input"
                       type="email"
                       name="email"
                       required
-                      placeholder="jane@company.com"
+                      placeholder="john@company.com"
                     />
                   </div>
                 </div>
-                <div class="mt-5">
+
+                <!-- Company -->
+                <div>
                   <label
                     class="mb-2 block text-xs font-black uppercase tracking-[.14em] text-slate-400"
-                    >Message</label
                   >
+                    Company / Organization
+                  </label>
+
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="company"
+                    placeholder="Google, Startup, University..."
+                  />
+                </div>
+
+                <!-- Subject -->
+                <div>
+                  <label
+                    class="mb-2 block text-xs font-black uppercase tracking-[.14em] text-slate-400"
+                  >
+                    Subject
+                  </label>
+
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="subject"
+                    required
+                    placeholder="Internship Opportunity / Collaboration / Interview"
+                  />
+                </div>
+
+                <!-- Message -->
+                <div>
+                  <label
+                    class="mb-2 block text-xs font-black uppercase tracking-[.14em] text-slate-400"
+                  >
+                    Message
+                  </label>
+
                   <textarea
                     class="form-input"
                     name="message"
-                    rows="5"
+                    rows="6"
                     required
-                    placeholder="Hi Sithumini, I'd love to chat about..."
+                    placeholder="Hi Sithumini, I came across your portfolio and would love to discuss..."
                   ></textarea>
                 </div>
+
+                <!-- Submit Button -->
                 <button
                   id="send-btn"
                   type="submit"
-                  class="mt-5 w-full rounded-2xl bg-ink px-5 py-4 text-sm font-black text-white transition hover:bg-mint dark:bg-mint"
+                  class="w-full rounded-2xl bg-ink px-5 py-4 text-sm font-black text-white transition hover:bg-mint dark:bg-mint"
                 >
                   Send Message →
                 </button>
+
+                <!-- Status -->
                 <p
                   id="form-status"
-                  class="mt-4 hidden text-center text-sm font-bold"
+                  class="hidden text-center text-sm font-bold"
                 ></p>
               </form>
             </div>
@@ -1874,7 +1997,9 @@
             <a href="https://github.com/SithuminiNimthara" target="_blank"
               >GitHub</a
             >
-            <a href="https://linkedin.com/in/sithuminipalamure" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/sithumini-palamure"
+              target="_blank"
               >LinkedIn</a
             >
             <a href="mailto:sithumininimthara@gmail.com">Email</a>
